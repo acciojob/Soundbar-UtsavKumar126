@@ -6,7 +6,7 @@ function playSound(soundFileName) {
         stopSound();
     }
 
-    audio.src = `./sounds/${soundFileName}`;
+    audio.src = `sounds/${soundFileName}`;
     audio.play();
     currentSound = soundFileName;
 }
